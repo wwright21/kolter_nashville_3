@@ -248,7 +248,7 @@ attribute_info = {
         'data_source': f'Parcl Labs API, {month_name+" "+str(today.year)}'
     },
     'Home Size': {
-        'explanation': 'Median square footage (trailing 18 months) for homes buit in or after 2020; missing Census tracts correspond to areas without any such sales in the last 18 months.',
+        'explanation': 'Median square footage (trailing 18 months) for homes built in or after 2020; missing Census tracts correspond to areas without any such sales in the last 18 months.',
         'file': 'Data/Parcl_Recorder/tract_aggregation.csv',
         'column_name': 'median_SF',
         'column_name_countyKPI': 'median_SF',
