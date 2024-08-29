@@ -38,7 +38,6 @@ st.sidebar.markdown(
     f"<p style='text-align:center;color:#000000;'>Select metro {base_metro} county:</p>",
     unsafe_allow_html=True
 )
-st.sidebar.write("this is a test.")
 
 # create the sidebar dropdown menu
 county_list = {
